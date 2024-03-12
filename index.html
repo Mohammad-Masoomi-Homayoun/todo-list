@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do list</title>
+        <link rel="stylesheet" href="./output.css" />
+    </head>
+    <body>
+        <div id="menu" class="flex justify-between text-white p-2 item-center bg-violet-700 w-full h-12">
+            <button id="add-task">Add</button>
+            <button id="read-tasks">Read Tasks</button>
+        </div>
+        <div class="p-2" id="todo-list">
+            <table class="border-collapse border border-slate-500 w-full" id="task-table">
+                <thead>
+                    <tr>
+                        <td class="border border-slate-600 h-15 w-40 text-center">Task Name</td>
+                        <td class="border border-slate-600 h-15 w-40 text-center">Priority</td>
+                        <td class="border border-slate-600 h-15 w-40 text-center">Status</td>
+                        <td class="border border-slate-600 h-15 w-40 text-center">Deadline</td>
+                        <td class="border border-slate-600 h-15 w-40 text-center">Action</td>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    
+                </tbody>
+            </table>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
